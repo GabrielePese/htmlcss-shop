@@ -14,19 +14,31 @@
   height: 200px;
   width: 200px;
 }
+
+.iPhone #cuore :hover{
+  display: run-in;
+}
+
+
 .sconto30{
   background-color: green;
   position: absolute;
   top:0;
   right: 0;
 }
+
 .cuore
 {
   position: absolute;
   top: 180px;
   left: 90px;
-
+  display: none;
 }
+
+.cuore:hover{
+  display: run-in;
+}
+
 #cuore{
   width: 10px;
   height: 10px;
