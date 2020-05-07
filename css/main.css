@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* blocco1 */
+.tablet{
+  background-color: blue;
+  display: inline-block;
+  height: 100px;
+  position:relative;
+}
+
+#foto1{
+  height: 50%;
+  width: 50%;
+}
+.sconto30{
+  background-color: red;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+.cuore
+{
+  background-color: red;
+  position: relative;
+  top: 50px;
+  left: 25px;
+
+}
+/* Blocco2 */
+.iphone{
+  background-color: blue;
+  display: inline-block;
+  height: 100px;
+}
+/* blocco3 */
+.cuffia{
+  background-color: blue;
+  display: inline-block;
+  height: 100px;
+}
+/* #fototablet {
+  width: 300px;
+  height: 300px;
+}
+
+#cuore
+{
+  width: 10%;
+  height: 10%;
+} */
