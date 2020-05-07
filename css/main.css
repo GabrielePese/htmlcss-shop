@@ -6,49 +6,73 @@
 
 /* blocco1 */
 .tablet{
-  background-color: blue;
   display: inline-block;
-  height: 100px;
   position:relative;
 }
 
 #foto1{
-  height: 50%;
-  width: 50%;
+  height: 200px;
+  width: 200px;
 }
 .sconto30{
-  background-color: red;
+  background-color: green;
   position: absolute;
   top:0;
   right: 0;
 }
 .cuore
 {
-  background-color: red;
-  position: relative;
-  top: 50px;
-  left: 25px;
+  position: absolute;
+  top: 180px;
+  left: 90px;
 
+}
+#cuore{
+  width: 10px;
+  height: 10px;
 }
 /* Blocco2 */
 .iphone{
-  background-color: blue;
   display: inline-block;
-  height: 100px;
+  position:relative;
+}
+#foto2{
+  height: 200px;
+  width: 200px;
+}
+
+.sconto5{
+  background-color: red;
+  position: absolute;
+  top:0;
+  right: 0;
 }
 /* blocco3 */
 .cuffia{
-  background-color: blue;
+  position: relative;
   display: inline-block;
-  height: 100px;
 }
-/* #fototablet {
-  width: 300px;
-  height: 300px;
+#foto3{
+  height: 200px;
+  width: 200px;
 }
 
-#cuore
-{
-  width: 10%;
-  height: 10%;
-} */
+/* blocco 2 */
+.bloccosecondo{
+  margin-top: 20px;
+}
+
+.tablet2{
+  display: inline-block;
+  position:relative;
+}
+
+.iphone2{
+  display: inline-block;
+  position:relative;
+}
+
+.cuffia2{
+  display: inline-block;
+  position:relative;
+}
