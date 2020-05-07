@@ -5,18 +5,20 @@
 }
 
 /* blocco1 */
-.tablet{
+.prodotto{
   display: inline-block;
   position:relative;
+  height: 300px;
 }
 
-#foto1{
-  height: 200px;
-  width: 200px;
+img{
+  display: block;
+  height: 300px;
+  width: 300px;
 }
 
-.iPhone #cuore :hover{
-  display: run-in;
+.prodotto:hover .cuore{
+  display: block;
 }
 
 
@@ -30,9 +32,11 @@
 .cuore
 {
   position: absolute;
-  top: 180px;
-  left: 90px;
+  color: red;
+  bottom: 10px;
+  left: 140px;
   display: none;
+  z-index: 999;
 }
 
 .cuore:hover{
@@ -43,15 +47,7 @@
   width: 10px;
   height: 10px;
 }
-/* Blocco2 */
-.iphone{
-  display: inline-block;
-  position:relative;
-}
-#foto2{
-  height: 200px;
-  width: 200px;
-}
+
 
 .sconto5{
   background-color: red;
@@ -59,32 +55,9 @@
   top:0;
   right: 0;
 }
-/* blocco3 */
-.cuffia{
-  position: relative;
-  display: inline-block;
-}
-#foto3{
-  height: 200px;
-  width: 200px;
-}
+
 
 /* blocco 2 */
 .bloccosecondo{
   margin-top: 20px;
-}
-
-.tablet2{
-  display: inline-block;
-  position:relative;
-}
-
-.iphone2{
-  display: inline-block;
-  position:relative;
-}
-
-.cuffia2{
-  display: inline-block;
-  position:relative;
 }
